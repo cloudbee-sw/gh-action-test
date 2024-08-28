@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "dev": "node dev.js",
+        "start": "node index.js",
+        "test": "node test.js"
+    },
+    "dependencies": {}
+
+}

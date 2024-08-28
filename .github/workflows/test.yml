@@ -1,0 +1,12 @@
+name: Test code
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        run: echo "hello world!!!"
+      - name: Get code
+        uses: actions/checkout@v4
+      - name: last step
+        run: npm run test
